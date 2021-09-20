@@ -12,6 +12,27 @@ a {
     dotted - точечная линия
     dashed - линия, которая состоит из прямоугольников
     */
-    border-radius: 1em;
-    /* скругление углов */
+    border-radius: 1em; /* скругление углов */
+
+    display: block;  /* настраиваю отображение */
+    width: 15%; /* устанавливаю ширину */
+    padding: 10px;  /* внутренний отступ 10пикс со всех сторон */
+    margin-bottom: 15px;  /* внешний отступ снизу 15 пикс */
+    text-align: center;  /* расположение текста посередине */
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover { /* когда на ссылку наводится курсор */
+    color: white;  /* меняю цвет */
+    border: none;  /* отключаю рамку */
+    background: #171c6f;  /* добавляю фон */
+}
+
+h1 {
+    transition: font-size 0.5s ease-in-out;
+}
+
+h1:hover {
+    font-size: 70px;
+    color: #ced1ff;
 }
