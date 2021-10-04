@@ -1,0 +1,9 @@
+span {
+    margin: 1.5em;
+    padding: 1.5em;
+    width: 200px;
+    height: 50px;
+    background: #64f2e6;
+    border: 0.2em solid #17177e;
+    display: inline-block; /* теперь он будет реагировать на ширину, высоту и отступы */
+}
