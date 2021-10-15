@@ -48,3 +48,59 @@ body {
 }
 /* end of menu styling */
 
+/*  styling card element */
+
+.content {
+    padding: 2em;
+}
+
+.card {
+    width: 30%;  /* ширина всегда 30% */
+    max-width: 350px;  /* но никогда не больше 350px */
+    text-align: center;
+
+    border-bottom: 0.3em solid #f5f5f5;
+    background: #e0e0e0;
+
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+    border-bottom: 0.3em solid #fc5a5a;
+}
+
+.card-header img {
+    display: block;
+    width: 100%;
+}
+
+.card-body {
+    background: #fafafa;
+    padding: 1rem 0;
+}
+
+.card-body h3 {
+    color: #444444;
+    margin-bottom: 0.5rem;
+}
+
+.subheading {
+    color: #fc5a5a;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.card-body a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.75rem;
+    background: #ccc;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.card-body:hover a {  /* чтобы кнопка светилась, когда наводятся ПРОСТО на карточку */
+    background: #fc5a5a;
+}
+
+/* end card style */
