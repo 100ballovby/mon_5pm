@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-header,
+.site-footer {
+    background: #2d2d2d;
+    color: #fff;
+    font-weight: 800;
+    padding: 2rem;
+}
+
+.site-footer {
+    text-align: center;
+    color: #6f6f6f;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+
+    text-transform: uppercase;
+    /* капс */
+}
+
