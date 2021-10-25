@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-header,
+.site-footer {
+    background: #2d2d2d;
+    color: #fff;
+    font-weight: 800;
+    padding: 2rem;
+}
+
+.site-footer {
+    text-align: center;
+    color: #6f6f6f;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+
+    text-transform: uppercase;
+    /* капс */
+}
+
+.column {
+    float: left;
+    width: 23%;
+    margin: 0 1%;
+}
+
+.column img {
+    display: block;
+    width: 100%;
+    opacity: 0.8;
+    cursor: pointer;  /* заставляет курсор выглядеть так, как будто он над ссылкой */
+
+    transition: 0.3s ease-in-out;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.row:after {  /* после элемента будет..... */
+    content: ""; /* обязательный элемент */
+    display: table;
+    clear: both;
+}
+
+.clearfix {
+    clear: both;
+}
+
