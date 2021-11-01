@@ -1,0 +1,45 @@
+/*
+Используемые цвета:
+  #34495e – мокрый асфальт
+  #c0392b – красный
+  #3498db – синий
+ */
+
+.container {
+    background: #34495e;
+    padding: 1em 0;
+}
+
+.header {
+    background: #c0392b;
+    padding: 1em;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.menu {
+    background: #3498db;
+    padding: 1em 0;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.red {
+    color: #fff;
+    width: 40%;
+    background: #c0392b;
+    min-height: 100px;
+    padding: 0.5em;
+}
+
+.promo1 {
+    float: left;
+}
+
+.promo2 {
+    float: right;
+}
