@@ -11,6 +11,8 @@
 }
 
 .sidebar {
+    float: left;  /* обтекание слева */
+    width: 150px;  /* расширить блок */
     min-height: 150px;
     padding: 10px;
     color: white;
@@ -18,9 +20,13 @@
 }
 
 .content {
-    min-height: 100px;
+    min-height: 150px;  /* увеличить высоту */
+    margin-left: 170px;  /* сделать отступ */
     padding: 10px;
     color: white;
     background-color: #3498db;
 }
 
+.footer {
+    clear: both;
+}
