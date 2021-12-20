@@ -1,0 +1,13 @@
+.container {
+    background: rgba(255, 255, 255, 0.7);
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    padding: 2em;
+}
