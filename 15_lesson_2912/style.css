@@ -1,0 +1,47 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 0.5em;
+
+    text-align: center;
+    border: 0.2em solid #cccccc;
+}
+
+.product--available {
+    border-color: #54b93f;
+}
+
+.product--unavailable {
+    filter: grayscale(1) opacity(0.7);
+}
+
+.product--special {
+    flex-basis: 100%;
+
+    border-color: #ee3643;
+}
+
+.product_price {
+    display: inline-block;
+    padding: 0.5em;
+    width: 60%;
+    color: white;
+    background: #ee3643;
+}
+
+.product_img {
+    max-width: 100px;
+    margin-bottom: 0.5em;
+}
+
+

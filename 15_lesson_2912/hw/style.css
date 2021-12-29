@@ -1,0 +1,10 @@
+li {
+    color: red;
+}
+
+.done {
+    color: #68e75d;
+    text-decoration: line-through;
+}
+
+
