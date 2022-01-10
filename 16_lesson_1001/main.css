@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+input[type=text],
+input[type=password],
+input[type=submit] {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em;
+    border: 0;
+    box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.06);
+    border-radius: 3em;
+}
+
+.btn {
+    /* убираем стандартный стиль  */
+    appearance: none;
+    -webkit-appearance: none; /* для хрома */
+
+    background: #4558c4;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+fieldset {
+    padding: 1em;
+    border: 0.2em solid #4558c4;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+}
+
+legend {
+    padding: 0.5em;
+    background: #4558c4;
+    color: #fff;
+    border-radius: 1em;
+}
+

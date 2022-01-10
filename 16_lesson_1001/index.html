@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h1>Формы</h1>
+<form action="https://httpbin.org/post" method="post">
+    <fieldset>
+        <legend>Данные входа</legend>
+        <label for="login">Логин:
+            <input type="text" name="login" id="login">
+        </label>
+
+        <label for="password">Пароль:
+            <input type="password" name="pass" id="password">
+        </label>
+
+        <input type="checkbox" id="show-password" onclick="show_password('#password')">
+        <label for="show-password">Показать пароль</label>
+    </fieldset>
+    <fieldset>
+        <legend>Вопрос</legend>
+        <label><input type="radio" name="question-one" value="1"> Вариант 1</label>
+        <label><input type="radio" name="question-one" value="2"> Вариант 2</label>
+    </fieldset>
+    <input type="submit" value="Send" class="btn">
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
