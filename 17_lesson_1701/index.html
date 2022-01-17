@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="messages"></div>  <!-- здесь будем генерировать сообщения -->
+
+<form action="" name="my_form" onsubmit="return validateForm('my_form', 'f_name')" method="post">
+    Name: <input type="text" name="f_name"><br>
+    <input type="submit" value="Отправить">
+</form>
+
+<hr>
+<p>Введите число от 1 до 10</p>
+<input type="text" class="number"><input type="button" onclick="number_validation('.number')" value="Подтвердить">
+
+<p class="demo"></p>
+
+<script src="script.js"></script>
+</body>
+</html>

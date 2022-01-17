@@ -1,0 +1,25 @@
+.alert {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.5em;
+    margin: 1em 0;
+    background: rgb(245, 245, 245);
+    border: 0.2em solid rgb(235, 235, 235);
+    border-radius: 1em;
+    font-weight: bold;
+    color: rgb(207, 207, 207);
+}
+
+.alert-danger {
+    color: rgb(179, 39, 39);
+    border-color: rgb(179, 39, 39);
+    background: rgba(179, 39, 39, 0.2);
+}
+
+.alert-success {
+    color: rgb(75, 191, 106);
+    border-color: rgb(75, 191, 106);
+    background: rgba(75, 191, 106, 0.2);
+}
+
+
