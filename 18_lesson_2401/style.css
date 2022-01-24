@@ -1,0 +1,22 @@
+.products {
+    display: flex;  /* делаем элементы "резиновыми" */
+    flex-wrap: wrap;  /* если элементы не помещаются в строке, переношу их на новую */
+    justify-content: space-between;
+    width: 60%;
+    margin: 20px auto;  /* список товаров посередине и небольшие отступы (20пикс) сверху и снизу */
+
+    list-style: none;
+}
+
+.product {
+    position: relative;  /* относительное позиционирование */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 25%;
+    margin-bottom: 30px;  /* отступ снизу */
+    padding: 2em;
+    background: rgb(210, 201, 201);
+}
+
+
