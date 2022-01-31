@@ -1,0 +1,29 @@
+.palette {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding: 0.5em;
+    margin: 0.2em;
+}
+
+.palette-block {
+    border-radius: 1em;
+    padding: 1em;
+    width: 30%;
+    margin-bottom: 1em;
+
+    border: 0.3em solid black;
+    font-weight: bold;
+}
+
+.palette-child {
+    width: 20%;
+    border-radius: 1em;
+    padding: 1em;
+
+    border: 0.3em solid black;
+    font-weight: bold;
+}
+
+
