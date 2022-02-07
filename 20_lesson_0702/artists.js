@@ -1115,6 +1115,16 @@ function fill_artists(array) {
         name.innerHTML = array[i]['DisplayName'];
         nation.innerHTML = array[i]['Nationality'];
 
+        if (array[i]['EndDate'] !== 0) {
+            name.classList.add('dead');
+        }
+
+        if (array[i]['Gender'] === 'Female') {
+            card.style.borderColor = '#f87373'
+        } else if (array[i]['Gender'] === 'Male'){
+            card.style.borderColor = '#5e70f0'
+        }
+
         card.appendChild(name);
         card.appendChild(nation);
 

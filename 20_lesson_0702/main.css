@@ -15,4 +15,10 @@
     margin-bottom: 0.5em;
 }
 
+.dead {
+    padding: 0.5em;
+    color: #767676;
+    border: 0.25em solid black;
+}
+
 
