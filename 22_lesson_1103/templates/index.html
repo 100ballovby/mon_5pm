@@ -1,0 +1,14 @@
+{% extends 'base.html' %}  <!-- позволяет встроить страницу сайта в базовый шаблон -->
+
+{% block content %}  <!-- соединяет блоки на базовом шаблоне и на вашей странице -->
+
+    {% if items['name'] %}  <!-- если имя было передано в шаблон -->
+        <h1>Hello, {{ items['name'] }}!</h1>  <!-- Поздороваться по имени -->
+    {% else %}
+        <h1>Hello, world!</h1>
+    {% endif %}
+
+    <hr>
+    <p>There is my first sit on Flask web framework!</p>
+
+{% endblock %}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if items['title'] %}  <!-- если в шаблон передан title -->
+        <title>{{ items['title'] }}</title>  <!-- отобразить его во вкладке браузера -->
+    {% else %}  <!-- иначе -->
+        <title>My Flask Site</title>  <!-- написать эту строчку -->
+    {% endif %}
+</head>
+<body>
+
+{% block content %}{% endblock %}  <!-- все страницы сайта буду генерироваться здесь -->
+
+</body>
+</html>
