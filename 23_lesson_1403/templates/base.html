@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My site</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+
+<nav>
+    <a href="{{ url_for('index') }}">Flask app</a>
+    <a href="">About</a>
+</nav>
+
+<div class="container">
+    {% block content %}
+    
+    {% endblock %}
+</div>
+
+</body>
+</html>

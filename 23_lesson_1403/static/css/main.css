@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.message {
+    padding: 1em;
+    margin: 0.5em;
+    background: #f3f3f3;
+}
+
+nav a {
+    color: #584f6f;
+    font-size: 2em;
+    margin-left: 2em;
+    text-decoration: none;
+}
