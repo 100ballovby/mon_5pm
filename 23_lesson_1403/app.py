@@ -15,5 +15,10 @@ def index():
     return render_template('index.html', items=messages)
 
 
+@app.route('/create', methods=['GET', 'POST'])
+def create():
+    return render_template('create.html')
+
+
 if __name__ == '__main__':  # если запускается именно ЭТОТ файл, то
     app.run()  # активировать "сервер" сайта
