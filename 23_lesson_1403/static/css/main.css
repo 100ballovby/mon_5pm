@@ -21,3 +21,10 @@ nav a {
     margin-left: 2em;
     text-decoration: none;
 }
+
+.alert {
+    padding: 1.4em;
+    margin: 0.5em;
+    color: #970020;
+    background-color: #ffd5de;
+}
