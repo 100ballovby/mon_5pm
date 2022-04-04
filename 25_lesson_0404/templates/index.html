@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belarus fee dataset 2001-2022</title>
+</head>
+<body>
+
+<h1>Средняя зарплата в Беларуси за 22 года</h1>
+
+{% for line in seq %}
+    <p>{{ line[1] }} {{ line[2] }} {{ line[4] }}</p>
+{% endfor %}
+
+
+</body>
+</html>
