@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    conn = sqlite3.connect('/Users/demidraksin/PycharmProjects/mon_5pm/25_lesson_0404/currency.sqlite')
+    conn = sqlite3.connect('currency.sqlite')
     cursor = conn.cursor()
     data = cursor.execute('SELECT * FROM salaries').fetchall()  # выгружаю все из БД
     return render_template('index.html', seq=data)
