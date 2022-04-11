@@ -1,0 +1,12 @@
+.card {
+    width: 23%;
+    min-width: 200px;
+    margin-bottom: 1em;
+}
+
+.log {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
